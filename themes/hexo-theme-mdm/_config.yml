@@ -1,0 +1,132 @@
+# HeaderBar 菜单
+# 图标只在小屏时候显示
+# 查找图标访问：（https://www.mdui.org/docs/material_icon）
+# open_mode 打开方式（不填写则默认为：_self）
+#     _blank 浏览器开新窗口显示链接
+#     _self  当前窗口打开链接
+
+menu:
+  Home:
+    url: /
+    icon: home
+    text: 首页
+  Site:
+    url: /site
+    icon: public
+    text: 主站
+    open_mode: _blank
+  Tags: 
+    url: /tags
+    icon: local_offer
+    text: 标签
+  Archives: 
+    url: /archives
+    icon: library_books
+    text: 归档
+  About: 
+    url: /about
+    icon: error_outline
+    text: 关于
+
+CDN:
+  enable: false
+  url: 
+
+# 评论(Valine)
+#  enable: 是否开启评论
+#  app_id: 你的 app_id
+#  app_key: 你的 app_key
+#  avatar: 头像         '',  'mp',  'identicon',  'monsterid',  'wavatar', 'retro', 'robohash', 'hide'
+#  评论提醒,验证码: 默认关闭，在post.ejs文件内
+#  更多配置查看官网(https://valine.js.org/)  
+Valine:
+  enable: false
+
+  app_id: Jng2NUkg6zUYlLxMxl4S91kW-gzGzoHsz
+  app_key: NKjBMKVPJv3CggFYFSUkUAvR
+  avatar: retro
+  placeholder: ヾﾉ≧∀≦)o来啊，快活啊!
+
+Gitalk:
+  enable: true
+  githubID: tonychenn
+  repo: blog.tonychenn.cn
+  ClientID: 9b72de255840a939dffc
+  ClientSecret: 9ad95d954f8f73a9caf2e79d533cb52d4d172d44
+  adminUser: tonychenn
+  proxy: https://proxy.cors.sh/https://github.com/login/oauth/access_token
+  # proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token  (被墙了)
+
+#  是否开启文章目录
+toc: false
+
+# 打赏
+reward:
+  enable: true
+  title: 写博客不易，请我喝杯咖啡？
+  alipay: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/alipay.jpg
+  wechat: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/wechat.jpg
+
+# 分享
+# 可选有 qq,qzone,wechat,douban,facebook,twitter,google
+share:
+  enable: true
+  facebook: true
+  qq: true
+  twitter: true
+  weibo: true
+  telegram: true
+  googleplus: true
+  linkedin: true
+
+
+# 自动提交百度搜索引擎
+# 开启请前往(https://ziyuan.baidu.com/linksubmit/index)获取baidu-site-verification添加至 mdm/layout/partials/head.ejs 文件中
+# 设置下面为True
+
+# GoogleAd --google广告开关  https://www.google.com/adsense
+# 开启请到 partials/head.ejs 替换为自己的
+
+# GreyMode 全局灰色（哀悼模式）
+SEO:
+  BaiduAutoPush: true
+  GoogleAd: true
+  GreyMode: false
+
+# 点击小心心特效
+ClickEffect:
+  enable: true
+
+# 站点地图
+sitemap:
+  path: sitemap.xml
+#baidusitemap:
+#  path: baidusitemap.xml
+
+# Math Formulas Render Support
+math:
+  # Default (true) will load mathjax / katex script on demand.
+  # That is it only render those page which has `mathjax: true` in Front-matter.
+  # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.
+  per_page: false
+
+  # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.
+  mathjax:
+    enable: true
+    # See: https://mhchem.github.io/MathJax-mhchem/
+    mhchem: false
+
+  # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) required for full Katex support.
+  katex:
+    enable: false
+    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+    copy_tex: false
+
+# 首页顶部图片地址
+index_header_img: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/img1.jpg
+# 文章内顶部图片没有设置或者图片出错后显示的默认图片
+default_error_img: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/img1.jpg
+# 博文条目没有指定图片,默认图片
+no_img: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/img1.jpg
+# 图片没有加载完成时显示的图片
+load_img: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/loading.gif

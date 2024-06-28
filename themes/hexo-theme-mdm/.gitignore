@@ -1,0 +1,13 @@
+candy
+source/resume
+source/video
+source/collection
+source/candyclient
+source/.DS_Store
+CNAME
+*.json
+*.DS_Store
+
+source/home/.git
+source/node_modules
+source/home/
