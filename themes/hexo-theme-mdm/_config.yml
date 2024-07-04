@@ -15,22 +15,22 @@ menu:
     icon: public
     text: 主站
     open_mode: _blank
-  Tags: 
+  Tags:
     url: /tags
     icon: local_offer
     text: 标签
-  Archives: 
+  Archives:
     url: /archives
     icon: library_books
     text: 归档
-  About: 
+  About:
     url: /about
     icon: error_outline
     text: 关于
 
 CDN:
   enable: false
-  url: 
+  url:
 
 # 评论(Valine)
 #  enable: 是否开启评论
@@ -38,7 +38,7 @@ CDN:
 #  app_key: 你的 app_key
 #  avatar: 头像         '',  'mp',  'identicon',  'monsterid',  'wavatar', 'retro', 'robohash', 'hide'
 #  评论提醒,验证码: 默认关闭，在post.ejs文件内
-#  更多配置查看官网(https://valine.js.org/)  
+#  更多配置查看官网(https://valine.js.org/)
 Valine:
   enable: false
 
@@ -58,7 +58,7 @@ Gitalk:
   # proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token  (被墙了)
 
 #  是否开启文章目录
-toc: false
+toc: true
 
 # 打赏
 reward:
@@ -95,7 +95,7 @@ SEO:
 
 # 点击小心心特效
 ClickEffect:
-  enable: true
+  enable: false
 
 # 站点地图
 sitemap:
@@ -123,7 +123,8 @@ math:
     copy_tex: false
 
 # 首页顶部图片地址
-index_header_img: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/img1.jpg
+#index_header_img: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/img1.jpg
+index_header_img: https://cdn.pixabay.com/photo/2015/10/22/08/17/sunset-1000866_960_720.jpg
 # 文章内顶部图片没有设置或者图片出错后显示的默认图片
 default_error_img: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/img1.jpg
 # 博文条目没有指定图片,默认图片
