@@ -62,7 +62,7 @@ toc: true
 
 # 打赏
 reward:
-  enable: true
+  enable: false
   title: 写博客不易，请我喝杯咖啡？
   alipay: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/alipay.jpg
   wechat: https://cdn.jsdelivr.net/gh/TonyChenn/BlogPicture/main/wechat.jpg
