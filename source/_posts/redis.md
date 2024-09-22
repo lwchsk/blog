@@ -1,7 +1,7 @@
 ---
-title: redis常见场景及实践
+title: redis常见场景及实践一
 tags: 
-  - 参考nu
+  - 参考
 ---
 
 ### 短信登录
